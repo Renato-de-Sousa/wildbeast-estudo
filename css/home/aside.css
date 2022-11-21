@@ -1,0 +1,15 @@
+.aside{
+  grid-area: aside;
+  padding: 30px;
+}
+
+.anuncio-1 img, .anuncio-2 img{
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.anuncio-1{
+  margin-bottom: 30px;
+}

@@ -1,7 +1,9 @@
 @import url('/css/global/global.css');
 @import url('/css/global/header.css');
+@import url('/css/global/footer.css');
 
 
 /* home */
 
 @import url('/css/home/sidenav.css');
+@import url('/css/home/aside.css');
