@@ -21,3 +21,11 @@ img{
   display: block;
   max-width: 100%;
 }
+
+.grid{
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "sidenav main aside"
+  "footer footer footer";
+}
