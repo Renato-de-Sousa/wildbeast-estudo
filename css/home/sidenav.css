@@ -23,3 +23,38 @@
   background-color: rgb(159, 128, 206);
 }
 
+
+@media (max-width: 760px){
+  .sidenav{
+    overflow-x: auto;
+  }
+  .sidenav-menu{
+    display: flex;
+    gap: 30px;
+    padding:30px;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .sidenav-menu::after{
+    content: '→';
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    animation: 0.5s ease-in infinite alternate none seta;
+  }
+
+  @keyframes seta {
+    from {
+      right: 30px;
+    }
+    to {
+      right: 20px;
+    }
+  }
+
+  .sidenav-menu li a{
+    margin: 0px;
+  }
+}

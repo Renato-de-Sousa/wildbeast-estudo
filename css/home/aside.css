@@ -4,7 +4,7 @@
 }
 
 .anuncio-1 img, .anuncio-2 img{
-  max-width: 250px;
+  
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -12,4 +12,12 @@
 
 .anuncio-1{
   margin-bottom: 30px;
+}
+
+@media (max-width:1200px){
+  .flex{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
 }
