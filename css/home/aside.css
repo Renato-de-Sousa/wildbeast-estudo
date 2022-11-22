@@ -2,6 +2,12 @@
   grid-area: aside;
   padding: 30px;
 }
+.flex{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-content: start;
+}
 
 .anuncio-1 img, .anuncio-2 img{
   
@@ -12,12 +18,4 @@
 
 .anuncio-1{
   margin-bottom: 30px;
-}
-
-@media (max-width:1200px){
-  .flex{
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
 }
